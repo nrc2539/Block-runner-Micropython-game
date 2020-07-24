@@ -12,4 +12,4 @@
 - Put main.py (game file) to ESP32 by using `ampy --port PORT put main.py`
 - Reset ESP32 and enjoy the game !!!
 
-> If you change GPIO that connected to SSD13006 OLED and switch, you must change GPIO number in main.py (game file) too.
+> If you change GPIO that connected to SSD1306 OLED and switch, you must change GPIO number in main.py (game file) too.
