@@ -7,7 +7,8 @@
 
 ### How to Setup & Install game
 ![wiring diagram](./img/oled_button_esp32.jpg)
-- Connect SSD1306 OLED with ESP32 (SDA= GPIO4, SCL= GPIO22) and switch (pull-down resistor) to GPIO25
+- Connect SSD1306 OLED with ESP32 (SDA= GPIO4, SCL= GPIO22)
+- Connect switch (pull-down resistor) to GPIO25
 - Put ssd1306 library to ESP32 by using	`ampy --port PORT put ssd1306.py`
 - Put main.py (game file) to ESP32 by using `ampy --port PORT put main.py`
 - Reset ESP32 and enjoy the game !!!
